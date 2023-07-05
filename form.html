@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image:linear-gradient(to top right, rgba(0, 0, 255, 0.295), rgba(255, 255, 0, 0.226), rgba(255, 0, 0, 0.329), rgba(0, 128, 0, 0.295));
+            width: 100vw;
+            height: 100vh;
+            
+        }
+
+        .form{
+            margin-top: 100px;
+        }
+
+        form{
+           border-radius: 10px;
+            width: 400px;
+            border: 1px solid black;
+            margin: auto;
+            align-items: center;
+            padding: 10px;
+            background-color: rgba(68, 60, 49, 0.8);
+        }
+      button, input{
+            display: block;
+            margin: 50px auto;
+        }
+
+        h1{
+            display: flex;
+            justify-content:center ;
+            text-decoration: underline;
+        }
+
+        input{
+            background-color: transparent;
+            width: 98%;
+            height: 50px;
+            border: 1;
+            outline: 0;
+            border-radius: 20px;
+            font-size: 22px;
+        }
+
+        button{
+            padding: 10px 20px;
+            color: bisque;
+            font-size: 18px;
+            border-radius: 15px;
+            border: 0;
+            outline: 0;
+            background-color: rgb(54, 55, 134);
+        }
+
+        ::placeholder{
+            font-size: 20px;
+            color: white;
+            padding-left: 20px;
+
+        }
+
+        input:active{
+            border-bottom: 2px solid linen;
+           
+        }
+
+        nav ul{
+            display: flex;
+            justify-content: space-around;
+            padding: 25px 0;
+            background-image: linear-gradient(to bottom right, blue, green,yellow);
+        }
+
+        li{
+            list-style: none;
+            font-size: 18px;
+        }
+
+        div{
+            float: left;
+            
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem at reiciendis quia, veritatis debitis quo laudantium nesciunt ea, itaque consequuntur, velit tempore nulla nisi. Qui et eos aliquam dolores molestias.</p>
+    </div>
+
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem at reiciendis quia, veritatis debitis quo laudantium nesciunt ea, itaque consequuntur, velit tempore nulla nisi. Qui et eos aliquam dolores molestias.</p>
+    </div>
+
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem at reiciendis quia, veritatis debitis quo laudantium nesciunt ea, itaque consequuntur, velit tempore nulla nisi. Qui et eos aliquam dolores molestias.</p>
+    </div>
+
+    <nav>
+        <ul>
+            <li>sayem</li>
+            <li>samu</li>
+            <li>samim</li>
+            <li>samiya
+                <ul>
+                    <li>nana</li>
+                    <li>hoho</li>
+                </ul>
+            </li>
+            <li>maihim</li>
+            <li>khana</li>
+            <ul>
+                <li>kabhi</li>
+                <li>jo badal</li>
+                <li>barseme</li>
+                <li>tujhe</li>
+                <li>ate</li>
+            </ul>
+            <li>badosh</li>
+            <li>abthehra</li>
+            <li>chor</li>
+            <li>diya</li>
+        </ul>
+    </nav>
+  
+        <div class="form">
+           <form>
+            <h1>login</h1>
+            <input type="text" placeholder="enter your name" id="" >
+            <input type="password" placeholder="enter your email" id="" >
+            <button>submit</button>
+           </form>
+        </div>
+    
+</body>
+</html>
